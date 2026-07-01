@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: Arial;
+}
+
+#chatBox {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 300px;
+  background: #111;
+  padding: 10px;
+}
+
+#messages {
+  height: 150px;
+  overflow-y: auto;
+  border: 1px solid #333;
+}
